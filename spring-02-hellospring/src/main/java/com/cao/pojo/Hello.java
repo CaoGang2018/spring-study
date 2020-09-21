@@ -6,6 +6,15 @@ package com.cao.pojo;
  */
 public class Hello {
     private String str;
+    private int x;
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
 
     public String getStr() {
         return str;
@@ -19,6 +28,7 @@ public class Hello {
     public String toString() {
         return "Hello{" +
                 "str='" + str + '\'' +
+                ", x=" + x +
                 '}';
     }
 }

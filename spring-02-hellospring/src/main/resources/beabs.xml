@@ -5,8 +5,16 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- more bean definitions go here -->
+    <!--
+    bean = 对象  new Hello();
+
+    id = 变量名
+    class = new 的对象
+    property 相当于给对象的属性设置值
+     -->
     <bean id="hello" class="com.cao.pojo.Hello" >
-        <property name="str" value="spring"/>
+        <property name="str" value="hello spring"/>
+        <property name="x" value="5"/>
     </bean>
 
 </beans>

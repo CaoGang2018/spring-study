@@ -6,7 +6,8 @@
 
     <!-- more bean definitions go here -->
     <bean id="hello" class="com.cao.pojo.Hello" >
-        <property name="str" value="spring"/>
+        <property name="str" value="hello spring"/>
+        <property name="x" value="5"/>
     </bean>
 
 </beans>
